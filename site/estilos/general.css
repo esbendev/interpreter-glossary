@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+}
+dl {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+}
+dt {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+}
+dd {
+    margin: 10px 0 0 0;
+}
+.termino {
+    margin-top: 10px;
+    border: 1px solid #f0f0f0;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.traduccion {
+    /* font-weight: bold; */
+}
+.definicion {
+    font-style: italic;
+}
+.categorias-container {
+    margin-top: 10px;
+}
+.categoria{
+    background-color: #cbe7ff;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.lista-categorias {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.categoria a, .lista-categorias a {
+    text-decoration: none;
+    color: black;
+}
+.imagenes-container {
+    margin-top: 10px;
+}
+.imagenes-container img {
+    width: 100px;
+    height: 100px;
+    margin-right: 5px;
+}
+.referencias {
+    margin: 10px 0 0 0;
+    padding: 0;
+    display: flex;
+}
+.referencias li {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 30ch;
+    background-color: #f0f0f0;
+    margin: .3rem;
+    padding: .3rem 1rem;
+}
