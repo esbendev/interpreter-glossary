@@ -60,7 +60,7 @@ def crear_termino(termino):
 
 def generar_pagina_web(resultado):
     try:
-        with open('../site/index.html', 'r') as archivo:
+        with open('../docs/index.html', 'r') as archivo:
             contenido = archivo.readlines()
         
         # Insert glossary terms with headers for new letters
@@ -93,12 +93,12 @@ def generar_pagina_web(resultado):
         fin_cats = contenido.index('    <!-- FIN CATS -->\n')
         contenido[inicio_cats+1:fin_cats] = [lista_categorias_html]
 
-        with open('../site/index.html', 'w') as archivo:
+        with open('../docs/index.html', 'w') as archivo:
             archivo.writelines(contenido)
 
         # Create category pages
         for categoria in categorias:
-            with open(f'../site/{categoria}.html', 'w') as archivo:
+            with open(f'../docs/{categoria}.html', 'w') as archivo:
                 archivo.write('<html><head><link rel="stylesheet" href="estilos/general.css"></head><body><h1>Glossary - Ben Smith</h1>\n')
                 archivo.write(f'<h1>{categoria}</h1>\n')
                 archivo.write('<a href="./index.html">back</a>\n<dl>\n')
