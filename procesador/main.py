@@ -2,7 +2,7 @@ import os
 
 def leer_archivo():
     try:
-        with open('Glossary - Sheet2.csv', 'r') as archivo:
+        with open('Glossary - Sheet2.tsv', 'r') as archivo:
             return archivo.readlines()
     except FileNotFoundError:
         print("Error: El archivo no fue encontrado.")
@@ -13,7 +13,7 @@ def procesar_datos(archivo):
     try:
         resultado = []
         for linea in archivo[1:]:  # Skip the first line
-            resultado.append(linea.strip().split(','))
+            resultado.append([campo.strip() for campo in linea.split('\t')])
         resultado.sort(key=lambda x: x[0].lower(), reverse=True)
         return resultado
     except Exception as e:
@@ -21,6 +21,7 @@ def procesar_datos(archivo):
 
 def crear_termino(termino):
     try:
+        print(termino)
         html = f"""
         <div class="termino">
             <dt>{termino[0]}</dt>
@@ -53,8 +54,8 @@ def crear_termino(termino):
         
         html += '            </dd>\n        </div>\n'
         return html
-    except IndexError:
-        print("Error: El término no tiene el formato esperado.")
+    except IndexError as e:
+        print(f"Error: El término no tiene el formato esperado. {e}")
     except Exception as e:
         print(f"Error al crear el término: {e}")
 

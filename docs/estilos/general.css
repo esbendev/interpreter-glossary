@@ -45,16 +45,21 @@ dd {
 .categoria{
     background-color: #cbe7ff;
     padding: 5px;
-    margin-right: 5px;
     border-radius: 5px;
 }
 
 .lista-categorias {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    padding: 2rem;
     justify-content: center;
+    gap: 1rem;
+    max-width: 1200px;
+    position: sticky;
+    top: 0;
+    background-color: #f0f0f0; /* Ensure it has a background color */
+    z-index: 1000; /* Ensure it stays above other content */
 }
 
 .categoria a, .lista-categorias a {
