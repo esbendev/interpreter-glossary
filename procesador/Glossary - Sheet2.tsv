@@ -1,12 +1,11 @@
 term	translation	definition	ref1	ref2	img1	img2	img3	cat1	cat2	cat3	cat4	cat5
 sharp pain	Dolor agudo, intenso		https://www.wordreference.com/es/translation.asp?tranword=sharp%20pain	https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain				pain	condition			
 throbbing pain	dolor punzante, Palpitante, que late		https://www.wordreference.com/es/translation.asp?tranword=throbbing%20pain	https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain				pain	condition			
-temporal muscles								body parts				
+temporal muscles			https://www.wordreference.com/es/translation.asp?tranword=temporal%20muscles					body parts				
 temples	sien		https://www.wordreference.com/es/translation.asp?tranword=temples					body parts				
 counceling sessions	sesión de terapia		https://www.wordreference.com/es/translation.asp?tranword=counseling					misc	treatment			
 living tissue	tejido vivo		https://www.wordreference.com/es/translation.asp?tranword=living%20tissue					body parts				
 bone mass	masa osea		https://www.wordreference.com/es/translation.asp?tranword=bone%20mass	https://www.merckmanuals.com/professional/musculoskeletal-and-connective-tissue-disorders/osteoporosis/osteoporosis				body parts				
-M.A.	asistente médico	medical assistant						staff				
 poison ivy	hiedra venenosa		https://www.wordreference.com/es/translation.asp?tranword=poison%20ivy					plants				
 calamine lotion	loción de calamina		https://www.wordreference.com/es/translation.asp?tranword=calamine					medicine	treatment			
 oatmeal poultice	emplasto de avena		https://www.wordreference.com/es/translation.asp?tranword=oatmeal%20poultice					misc	treatment			
@@ -27,29 +26,33 @@ Radiating	irradiante, que irradia		https://www.wordreference.com/es/translation.
 Sensitive to the touch	sensible al tacto		https://www.wordreference.com/es/translation.asp?tranword=Sensitive%20to%20the%20touch	https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain				pain	condition			
 Intermittent (comes and goes)	intermitente, que va y viene		https://www.wordreference.com/es/translation.asp?tranword=Intermittent%20(comes%20and%20goes)	https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain				pain	condition			
 Constant	constante, persistente		https://www.wordreference.com/es/translation.asp?tranword=Constant	https://www.merckmanuals.com/professional/neurologic-disorders/pain/overview-of-pain				pain	condition			
-Angiogram	Angiografía							invasiveProcedure	procedure	CardiovascularSystem		
-Local Anesthesia	Anestesia Local							invasiveProcedure	procedure	NervousSystem		
-Conscious Anesthesia	Sedación Conciente?							invasiveProcedure	procedure	NervousSystem		
-General Anesthesia	Anestesia General							invasiveProcedure	procedure	NervousSystem		
-Biopsy	Biopsia							invasiveProcedure	procedure	MultipleSystem		
-Endoscopic retrograde cholangiopancreatography (ERCP)	colangiopancreatografía retrógrada endoscópica							invasiveProcedure	procedure	DigestiveSystem		
-Bronchoscopy	Broncoscopía							invasiveProcedure	procedure	RespiratorySystem		
-Cardiac catheterization	Cateterismo cardíaco / cateterización cardíaca							invasiveProcedure	procedure	CardiovascularSystem		
-Coronary stent placement	Colocación de Stent Coronario							invasiveProcedure	procedure	CardiovascularSystem		
-Endometrial biopsy	Biopsia endometrial							invasiveProcedure	procedure	ReproductiveSystem		
-Graft placement for dialysis	colocación de injerto para diálisis							invasiveProcedure	procedure	CirculatorySystem		
-Central IV placement	Colocación de cateter venoso central							invasiveProcedure	procedure	CirculatorySystem		
-Port placement (Mediport/infusaport/chemotherapy port)	Colocación de puerto							invasiveProcedure	procedure	CirculatorySystem		
-Shunt implantation	implante de derivación							invasiveProcedure	procedure	MultipleSystem		
-Stent placement	Colocación de stent							invasiveProcedure	procedure	MultipleSystem		
-Vaginal/cervical biopsy	Biopsia cervicovaginal							invasiveProcedure	procedure	ReproductiveSystem		
-anterior or ventral		front of body						directionalTerms				
-posterior or dorsal		back of body						directionalTerms				
-inferior		below another structure or moving more toward the feet						directionalTerms				
-superior		above another structure or moving more toward the head						directionalTerms				
-lateral		alongside another structure						directionalTerms				
-medial		middle or near the middle of the body or structure						directionalTerms				
-proximal		located near the trunk or point of attachment to the body						directionalTerms				
-distal		located away from the trunk or point of attachment to the body						directionalTerms				
-supine		body's position when lying on spine with face pointing upwards						directionalTerms				
-prone		body's position when lying on stomach with face pointing down.						directionalTerms				
+Angiogram	Angiografía		https://www.wordreference.com/es/translation.asp?tranword=Angiogram					invasiveProcedure	procedure	CardiovascularSystem		
+Local Anesthesia	Anestesia Local		https://www.wordreference.com/es/translation.asp?tranword=Local%20Anesthesia					invasiveProcedure	procedure	NervousSystem		
+Conscious Anesthesia	Sedación Conciente?		https://www.wordreference.com/es/translation.asp?tranword=Conscious%20Anesthesia					invasiveProcedure	procedure	NervousSystem		
+General Anesthesia	Anestesia General		https://www.wordreference.com/es/translation.asp?tranword=General%20Anesthesia					invasiveProcedure	procedure	NervousSystem		
+Biopsy	Biopsia		https://www.wordreference.com/es/translation.asp?tranword=Biopsy					invasiveProcedure	procedure	MultipleSystem		
+Endoscopic retrograde cholangiopancreatography (ERCP)	colangiopancreatografía retrógrada endoscópica		https://www.wordreference.com/es/translation.asp?tranword=Endoscopic%20retrograde%20cholangiopancreatography%20(ERCP)					invasiveProcedure	procedure	DigestiveSystem		
+Bronchoscopy	Broncoscopía		https://www.wordreference.com/es/translation.asp?tranword=Bronchoscopy					invasiveProcedure	procedure	RespiratorySystem		
+Cardiac catheterization	Cateterismo cardíaco / cateterización cardíaca		https://www.wordreference.com/es/translation.asp?tranword=Cardiac%20catheterization					invasiveProcedure	procedure	CardiovascularSystem		
+Coronary stent placement	Colocación de Stent Coronario		https://www.wordreference.com/es/translation.asp?tranword=Coronary%20stent%20placement					invasiveProcedure	procedure	CardiovascularSystem		
+Endometrial biopsy	Biopsia endometrial		https://www.wordreference.com/es/translation.asp?tranword=Endometrial%20biopsy					invasiveProcedure	procedure	ReproductiveSystem		
+Graft placement for dialysis	colocación de injerto para diálisis		https://www.wordreference.com/es/translation.asp?tranword=Graft%20placement%20for%20dialysis					invasiveProcedure	procedure	CirculatorySystem		
+Central IV placement	Colocación de cateter venoso central		https://www.wordreference.com/es/translation.asp?tranword=Central%20IV%20placement					invasiveProcedure	procedure	CirculatorySystem		
+Port placement (Mediport/infusaport/chemotherapy port)	Colocación de puerto		https://www.wordreference.com/es/translation.asp?tranword=Port%20placement%20(Mediport/infusaport/chemotherapy%20port)					invasiveProcedure	procedure	CirculatorySystem		
+Shunt implantation	implante de derivación		https://www.wordreference.com/es/translation.asp?tranword=Shunt%20implantation					invasiveProcedure	procedure	MultipleSystem		
+Stent placement	Colocación de stent		https://www.wordreference.com/es/translation.asp?tranword=Stent%20placement					invasiveProcedure	procedure	MultipleSystem		
+Vaginal/cervical biopsy	Biopsia cervicovaginal		https://www.wordreference.com/es/translation.asp?tranword=Vaginal/cervical%20biopsy					invasiveProcedure	procedure	ReproductiveSystem		
+anterior or ventral		front of body	https://www.wordreference.com/es/translation.asp?tranword=anterior%20or%20ventral					directionalTerms				
+posterior or dorsal		back of body	https://www.wordreference.com/es/translation.asp?tranword=posterior%20or%20dorsal					directionalTerms				
+inferior		below another structure or moving more toward the feet	https://www.wordreference.com/es/translation.asp?tranword=inferior					directionalTerms				
+superior		above another structure or moving more toward the head	https://www.wordreference.com/es/translation.asp?tranword=superior					directionalTerms				
+lateral		alongside another structure	https://www.wordreference.com/es/translation.asp?tranword=lateral					directionalTerms				
+medial		middle or near the middle of the body or structure	https://www.wordreference.com/es/translation.asp?tranword=medial					directionalTerms				
+proximal		located near the trunk or point of attachment to the body	https://www.wordreference.com/es/translation.asp?tranword=proximal					directionalTerms				
+distal		located away from the trunk or point of attachment to the body	https://www.wordreference.com/es/translation.asp?tranword=distal					directionalTerms				
+supine		body's position when lying on spine with face pointing upwards	https://www.wordreference.com/es/translation.asp?tranword=supine					directionalTerms				
+prone		body's position when lying on stomach with face pointing down.	https://www.wordreference.com/es/translation.asp?tranword=prone					directionalTerms				
+catch my breath	recobrar el aliento, tomarse un respiro		https://www.wordreference.com/es/translation.asp?tranword=catch%20your%20breath					idioms				
+hives	urticaria		https://www.wordreference.com/es/translation.asp?tranword=hives					condition				
+genetic counseling	asesoramiento genético		https://medlineplus.gov/spanish/geneticcounseling.html					misc				
+trisomy	trisomía		https://www.wordreference.com/es/translation.asp?tranword=trisomy					condition				

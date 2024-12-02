@@ -31,7 +31,7 @@ def crear_termino(termino):
             html += '        <div class="categorias-container">\n'
             for i in range(8, 13):
                 if termino[i]:
-                    html += f'                    <span class="categoria"><a href="{termino[i].replace(" ","%20")}.html">{termino[i]}</a></span>\n'
+                    html += f'                    <span class="categoria cat-{termino[i].lower().replace(" ", "-")}"><a href="{termino[i].replace(" ","%20")}.html">{termino[i]}</a></span>\n'
             html += '                </div>\n'
         
         html += f'                <p>{termino[1]}</p>\n'
@@ -86,7 +86,7 @@ def generar_pagina_web(resultado):
         # Generate category list HTML
         lista_categorias_html = '    <div class="lista-categorias">\n'
         for categoria in sorted(categorias):
-            lista_categorias_html += f'        <span class="categoria"><a href="{categoria.replace(" ","%20")}.html">{categoria}</a></span>\n'
+            lista_categorias_html += f'        <span class="categoria cat-{categoria.lower().replace(" ", "-")}"><a href="{categoria.replace(" ","%20")}.html">{categoria}</a></span>\n'
         lista_categorias_html += '    </div>\n'
 
         # Insert category list

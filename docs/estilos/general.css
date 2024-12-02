@@ -42,10 +42,16 @@ dd {
 .categorias-container {
     margin-top: 10px;
 }
+
+.categorias-container>.categoria:not(:first-child) {
+    margin: 5px;
+}
 .categoria{
     background-color: #cbe7ff;
     padding: 5px;
     border-radius: 5px;
+    /* add shadow */
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.2);
 }
 
 .lista-categorias {
@@ -87,4 +93,80 @@ dd {
     background-color: #f0f0f0;
     margin: .3rem;
     padding: .3rem 1rem;
+}
+
+/* colores para categorias */
+/* 
+cat-cardiovascularsystem
+cat-circulatorysystem
+cat-digestivesystem
+cat-multiplesystem
+cat-nervoussystem
+cat-reproductivesystem
+cat-respiratorysystem
+cat-body-parts
+cat-condition
+cat-directionalterms
+cat-idioms
+cat-invasiveprocedure
+cat-medicine
+cat-misc
+cat-pain
+cat-plants
+cat-procedure
+cat-treatment
+*/
+.cat-cardiovascularsystem {
+    background-color: #ccffcc; /* Light green */
+}
+.cat-circulatorysystem {
+    background-color: #99ff99; /* Light green */
+}
+.cat-digestivesystem {
+    background-color: #66ff66; /* Medium green */
+}
+.cat-multiplesystem {
+    background-color: #cc99ff; /* Light purple */
+}
+.cat-nervoussystem {
+    background-color: #cc66ff; /* Medium purple */
+}
+.cat-reproductivesystem {
+    background-color: #cc33ff; /* Dark purple */
+}
+.cat-respiratorysystem {
+    background-color: #ffcccc; /* Light red */
+}
+.cat-body-parts {
+    background-color: #ffcc99; /* Light orange */
+}
+.cat-condition {
+    background-color: #ffcc66; /* Light yellow-orange */
+}
+.cat-directionalterms {
+    background-color: #ffcc33; /* Light yellow */
+}
+.cat-idioms {
+    background-color: #ffcc00; /* Yellow */
+}
+.cat-invasiveprocedure {
+    background-color: #ff9933; /* Orange */
+}
+.cat-medicine {
+    background-color: #ff6600; /* Dark orange */
+}
+.cat-misc {
+    background-color: #ff9966; /* Light red-orange */
+}
+.cat-pain {
+    background-color: #ff6666; /* Light red */
+}
+.cat-plants {
+    background-color: #ff3333; /* Light red */
+}
+.cat-procedure {
+    background-color: #ff6666; /* Light red */
+}
+.cat-treatment {
+    background-color: #ff9999; /* Light red */
 }
